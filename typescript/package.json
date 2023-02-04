@@ -1,0 +1,25 @@
+{
+    "name": "typescript_webpack_ts-loader_example",
+    "version": "1.0.0",
+    "main": "./dist/bundle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "web": "webpack-dev-server",
+        "bundle": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.4.4",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.3.1"
+    },
+    "dependencies": {
+        "rxjs": "^7.8.0"
+    },
+    "description": "TypeScript ile beraber webpack ve ts kodlarının webpack için bundle edilmesini sağlayan ts-loader örneği"
+}

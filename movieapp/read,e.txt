@@ -1,0 +1,6 @@
+bu uygulama da npm install araciligiyla alert yükledik. yükleme islemini:
+npm install alertifyjs seklinde terminale yazinca ekleme islemi gerceklesti.
+ayrica component ekleme islemini : ng g c component ismi
+uygulamayi baslatma ng serve 
+jspn server icin npm install -g json-server indirdik fake bir json olusturma imkanimiz oldu,
+json calistirmak icin json-server --watch db.json terminalde yazilmali
